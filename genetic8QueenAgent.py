@@ -216,6 +216,9 @@ def main():
     
     pyplot.plot(x,y)
     pyplot.xlim([0, 1000])
+    pyplot.ylim([0, 1])
+    
+    pyplot.show()
     
 if __name__ == '__main__':
     main()
